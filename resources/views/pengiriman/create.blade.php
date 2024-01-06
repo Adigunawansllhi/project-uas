@@ -2,7 +2,7 @@
 @section('content')
     <div class="card">
         <div class="card-header">
-            <h3 class="card-title">Horizontal Form</h3>
+            <h3 class="card-title">Tambah Transaksi Pengiriman</h3>
         </div>
         <form class="form-horizontal" action={{ route('pengiriman-store') }} method="POST">
             @csrf
